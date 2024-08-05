@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main</class>
+ <widget class="QMainWindow" name="main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>banco juancito-transferencias</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="btnRegistrar_transferencia"/>
+    <addaction name="btnReportar_transferencia"/>
+    <addaction name="btnHistorial_de_transferencia"/>
+   </widget>
+   <widget class="QMenu" name="menucreditos">
+    <property name="title">
+     <string>creditos</string>
+    </property>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menucreditos"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="btnRegistrar_transferencia">
+   <property name="text">
+    <string>Registrar transferencia</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="btnReportar_transferencia">
+   <property name="text">
+    <string>Reportar transferencia</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="btnHistorial_de_transferencia">
+   <property name="text">
+    <string>Historial de transferencia</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

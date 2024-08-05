@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="xy">
+    <file>gui/logoqq.png</file>
+  </qresource>
+</RCC>

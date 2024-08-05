@@ -1,0 +1,1 @@
+[(11, 2000, 'DNI-Documento Nacional de Identificación', '61163773', 'True', 'True', '2024-08-04 08:50:51', '2003-01-19', 'Giro', 'Juan', 'Manuel', 'Rengifo', 'Fretel', 'Hombre', 'TINGO MARIA', 'True', 2000, 'Giro', 'True')]
